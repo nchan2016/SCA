@@ -7,8 +7,12 @@ from sys import argv
 
 def main():
     libname = argv[1]
+    CPE = ":" + libname 
     CVEs = []
-    CVEs = get_all_vul("CVE_JSONs/JSON/", libname)
+    CVEs = get_all_vul("CVE_JSONs/JSON/", CPE)
+    t = write_json(CVEs, libname)
+    if t != 0:
+        print("Unable to write json")
     return 0
 
 class CVE:
@@ -71,6 +75,20 @@ def check_child(children, libname):
                     if libname in t["cpe23Uri"]:
                         return True
 
+def write_json(CVEs, libname):
+    data = {}
+    data[libname] = []
+    for c in CVEs:
+        data[libname].append({
+            'CVE': c.CVE_id,
+            'Fixed Version': c.fix_version,
+            'Latest Version': c.l_version
+        })
+    fname = libname + ".json"
+    with open(fname, 'w') as outfile:
+        json.dump(data, outfile, indent=2)
+    return 0
+
 def get_all_vul(directory, lib):
     year = 2020
     os.system("cd CVE_JSONs/JSON")
@@ -86,9 +104,10 @@ def get_all_vul(directory, lib):
             elif i.l_version != None:
                 print("Latest vulnerable version")
                 print(i.l_version)
-            print("Vulnerable versions")
-            for x in i.vul_versions:
-                print(x)
+            else:
+                print("Vulnerable versions")
+                for x in i.vul_versions:
+                    print(x)
             CVEs.append(i)
     return CVEs
 
