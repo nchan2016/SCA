@@ -16,11 +16,12 @@ def main():
     return 0
 
 class CVE:
-    def __init__(self, CVE_id):
+    def __init__(self, CVE_id, d):
         self.CVE_id = CVE_id
         self.vul_versions = []
         self.l_version = None
         self.fix_version = None
+        self.description = d
     def get_latest(self, v_versions):
         return 0
     def add_version(self, version):
@@ -37,32 +38,26 @@ class CVE:
         for t in self.vul_versions:
             if self.l_version == None:
                 self.l_version = t
-            else:
+            elif t != None:
                 if version.parse(letter_Version(t)) > version.parse(letter_Version(self.l_version)):
                     self.l_version = t
         return 0
-    #def find_l_version(self):
-        #array_length = 0
-        #if self.vul_versions == []:
-            #return 0
-        #else:
-            #for v in self.vul_versions:
-                #v = v.split(".")
-            #array_length = len(self.vul_versions[0])
-            #version_array = [0] * (array_length + 1)
-            #for t in self.vul_versions:
-                #for x in range(len(t)):
-                    #if version_array[x] == 0:
-                        #version_array[x] = t[x]
-                    #elif any(c.isalpha() for c in t[x]):
-                        #temp = re.compile("([0-9]+)([a-zA-Z]+)")
-                        #res = temp.match(t[x]).groups()
-                        #if version_array[x].isdecimal():
-                            #if int(res[0]) > int(version_array[x])
-                        #res2 = temp.match(version_array[x]).groups()
-                        #if int(res2[0]) > 
-                    #elif int(t[x]) > int(version_array[x]):
-                        #version_array[x] = t[x]
+    def find_fix_version(self):
+        if self.fix_version != None:
+            return 0
+        elif self.l_version == None:
+            return 0
+        else:
+            punct_stripped_sent = self.description.replace(",", '')
+            pattern = re.compile("\.(?!\d)")
+            punct_stripped_sent = pattern.sub(' ', punct_stripped_sent)
+            s_array = self.description.split(" ")
+            for string in s_array:
+                if '.' in string and string[0].isdigit():
+                    if version.parse(letter_Version(string)) > version.parse(letter_Version(self.l_version)):
+                        self.set_fix_version(string)
+                        return 0
+            return 0
 
 
 def check_child(children, libname):
@@ -84,7 +79,7 @@ def write_json(CVEs, libname):
             'Fixed Version': c.fix_version,
             'Latest Version': c.l_version
         })
-    fname = libname + ".json"
+    fname = "lib_JSONs/"+ libname + ".json"
     with open(fname, 'w') as outfile:
         json.dump(data, outfile, indent=2)
     return 0
@@ -97,7 +92,7 @@ def get_all_vul(directory, lib):
         filename = "{}nvdcve-1.1-{}.json".format(directory, x)
         for i in extract_from_json(filename, lib):
             print(i.CVE_id)
-            i.find_l_version2()
+            #i.find_l_version2()
             if i.fix_version != None:
                 print("Fixed version")
                 print(i.fix_version)
@@ -131,7 +126,8 @@ def extract_from_json(fname, libname):
                 if check_child(x["children"], libname):
                     if check_Key_Error(x, "cpe_match") == 0:
                         c_ID = n["cve"]["CVE_data_meta"]["ID"]
-                        C_CVE = get_Versions(x["cpe_match"], ID, libname)
+                        description = n["cve"]["description"]["description_data"][0]["value"]
+                        C_CVE = get_Versions(x["cpe_match"], ID, libname, description)
                         CVEs.append(C_CVE)
             else:
                 if check_Key_Error(x, "cpe_match") == 0:
@@ -139,13 +135,15 @@ def extract_from_json(fname, libname):
                         if w["vulnerable"] == True and libname in w["cpe23Uri"]:
                             if n["cve"]["CVE_data_meta"]["ID"] not in CVEs:
                                 ID = n["cve"]["CVE_data_meta"]["ID"]
-                                c = get_Versions(x["cpe_match"], ID, libname)
+                                description = n["cve"]["description"]["description_data"][0]["value"]
+                                c = get_Versions(x["cpe_match"], ID, libname, description)
                                 CVEs.append(c)
                             break
     return CVEs
 
-def get_Versions(d, ID, libname):
-    C = CVE(ID)
+def get_Versions(d, ID, libname, description):
+    libname = libname.replace(':', '')
+    C = CVE(ID, description)
     for w in d:
         if w["vulnerable"] == True and libname in w["cpe23Uri"]:
             if check_key(w, "versionEndIncluding"):
@@ -156,6 +154,8 @@ def get_Versions(d, ID, libname):
                 Uri = w["cpe23Uri"].split(":")
                 vul_version = parse_Uri(libname, Uri)
                 C.add_version(vul_version)
+    C.find_l_version2()
+    C.find_fix_version()
     return C
 
 def letter_Version(version):
