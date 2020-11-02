@@ -1,0 +1,134 @@
+{
+  "firmware": [
+    {
+      "CVE": "CVE-2020-11499",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2013-2645",
+      "Fixed Version": null,
+      "Latest Version": "tl-wr1043nd_v1_120405"
+    },
+    {
+      "CVE": "CVE-2009-4196",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-2387",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-3441",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-3784",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-3786",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-3787",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-3788",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-4360",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-4488",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-4753",
+      "Fixed Version": "1.52.1",
+      "Latest Version": "*"
+    },
+    {
+      "CVE": "CVE-2007-4822",
+      "Fixed Version": "1.20",
+      "Latest Version": "*"
+    },
+    {
+      "CVE": "CVE-2007-5027",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-5214",
+      "Fixed Version": "2.43",
+      "Latest Version": "2.02"
+    },
+    {
+      "CVE": "CVE-2007-5482",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-5583",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-6003",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-6054",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2006-3929",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2006-5382",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2006-5536",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2006-5537",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2004-2691",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2003-1320",
+      "Fixed Version": null,
+      "Latest Version": "6.4.0.1"
+    },
+    {
+      "CVE": "CVE-2001-0888",
+      "Fixed Version": null,
+      "Latest Version": "1.3"
+    }
+  ]
+}

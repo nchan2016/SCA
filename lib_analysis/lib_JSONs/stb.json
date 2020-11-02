@@ -1,0 +1,114 @@
+{
+  "stb": [
+    {
+      "CVE": "CVE-2020-6617",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6618",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6619",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6620",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6621",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6622",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2020-6623",
+      "Fixed Version": null,
+      "Latest Version": "1.22"
+    },
+    {
+      "CVE": "CVE-2019-13217",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13218",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13219",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13220",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13221",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13222",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-13223",
+      "Fixed Version": null,
+      "Latest Version": "2019-03-04"
+    },
+    {
+      "CVE": "CVE-2019-15058",
+      "Fixed Version": null,
+      "Latest Version": "2.23"
+    },
+    {
+      "CVE": "CVE-2019-19777",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2019-20056",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2018-1000050",
+      "Fixed Version": null,
+      "Latest Version": "1.12"
+    },
+    {
+      "CVE": "CVE-2018-16981",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2014-0754",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2011-4859",
+      "Fixed Version": null,
+      "Latest Version": "3.01"
+    },
+    {
+      "CVE": "CVE-2007-6281",
+      "Fixed Version": null,
+      "Latest Version": null
+    }
+  ]
+}

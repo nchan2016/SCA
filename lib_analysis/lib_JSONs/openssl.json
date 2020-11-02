@@ -1,0 +1,1169 @@
+{
+  "openssl": [
+    {
+      "CVE": "CVE-2020-1967",
+      "Fixed Version": "1.3",
+      "Latest Version": "1.1.1f"
+    },
+    {
+      "CVE": "CVE-2019-0190",
+      "Fixed Version": "2.4.37",
+      "Latest Version": "*"
+    },
+    {
+      "CVE": "CVE-2019-1543",
+      "Fixed Version": "1.1.1c",
+      "Latest Version": "1.1.1b"
+    },
+    {
+      "CVE": "CVE-2019-1547",
+      "Fixed Version": "1.1.1d",
+      "Latest Version": "1.1.1c"
+    },
+    {
+      "CVE": "CVE-2019-1549",
+      "Fixed Version": "1.1.1d",
+      "Latest Version": "1.1.1c"
+    },
+    {
+      "CVE": "CVE-2019-1551",
+      "Fixed Version": "1.1.1e",
+      "Latest Version": "1.1.1d"
+    },
+    {
+      "CVE": "CVE-2019-1552",
+      "Fixed Version": "1.1.1d",
+      "Latest Version": "1.1.1c"
+    },
+    {
+      "CVE": "CVE-2019-1559",
+      "Fixed Version": "1.0.2r",
+      "Latest Version": "1.0.2q"
+    },
+    {
+      "CVE": "CVE-2019-1563",
+      "Fixed Version": "1.1.1d",
+      "Latest Version": "1.1.1c"
+    },
+    {
+      "CVE": "CVE-2018-0732",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0h"
+    },
+    {
+      "CVE": "CVE-2018-0733",
+      "Fixed Version": "1.1.0h",
+      "Latest Version": "1.1.0g"
+    },
+    {
+      "CVE": "CVE-2018-0734",
+      "Fixed Version": "1.1.1a",
+      "Latest Version": "1.1.0i"
+    },
+    {
+      "CVE": "CVE-2018-0735",
+      "Fixed Version": "1.1.0j",
+      "Latest Version": "1.1.0i"
+    },
+    {
+      "CVE": "CVE-2018-0737",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0h"
+    },
+    {
+      "CVE": "CVE-2018-0739",
+      "Fixed Version": "1.1.0h",
+      "Latest Version": "1.1.0g"
+    },
+    {
+      "CVE": "CVE-2018-12433",
+      "Fixed Version": "3.4.4",
+      "Latest Version": "-"
+    },
+    {
+      "CVE": "CVE-2018-12437",
+      "Fixed Version": "1.18.1",
+      "Latest Version": "-"
+    },
+    {
+      "CVE": "CVE-2018-12438",
+      "Fixed Version": null,
+      "Latest Version": "-"
+    },
+    {
+      "CVE": "CVE-2018-16395",
+      "Fixed Version": "2.1.2",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2018-20997",
+      "Fixed Version": "0.10.9",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2018-5407",
+      "Fixed Version": "1.1.0i",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2017-16065",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2017-3730",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0c"
+    },
+    {
+      "CVE": "CVE-2017-3731",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0c"
+    },
+    {
+      "CVE": "CVE-2017-3731",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2j"
+    },
+    {
+      "CVE": "CVE-2017-3732",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0c"
+    },
+    {
+      "CVE": "CVE-2017-3733",
+      "Fixed Version": "1.1.0e",
+      "Latest Version": "1.1.0d"
+    },
+    {
+      "CVE": "CVE-2017-3735",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0f"
+    },
+    {
+      "CVE": "CVE-2017-3736",
+      "Fixed Version": "1.1.0g",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2017-3737",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2m"
+    },
+    {
+      "CVE": "CVE-2017-3738",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2m"
+    },
+    {
+      "CVE": "CVE-2017-3738",
+      "Fixed Version": "1.1.0h",
+      "Latest Version": "1.1.0g"
+    },
+    {
+      "CVE": "CVE-2016-0701",
+      "Fixed Version": "1.0.2f",
+      "Latest Version": "1.0.2e"
+    },
+    {
+      "CVE": "CVE-2016-0702",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-0703",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2016-0704",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2016-0705",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-0797",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-0798",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-0799",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-0800",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-10931",
+      "Fixed Version": "0.9.0",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2016-2105",
+      "Fixed Version": "1.0.2h",
+      "Latest Version": "1.0.2g"
+    },
+    {
+      "CVE": "CVE-2016-2106",
+      "Fixed Version": "1.0.1t",
+      "Latest Version": "1.0.1s"
+    },
+    {
+      "CVE": "CVE-2016-2107",
+      "Fixed Version": "1.0.1t",
+      "Latest Version": "1.0.1s"
+    },
+    {
+      "CVE": "CVE-2016-2108",
+      "Fixed Version": "1.0.1o",
+      "Latest Version": "1.0.1n"
+    },
+    {
+      "CVE": "CVE-2016-2109",
+      "Fixed Version": "1.0.1t",
+      "Latest Version": "1.0.1s"
+    },
+    {
+      "CVE": "CVE-2016-2176",
+      "Fixed Version": "1.0.1t",
+      "Latest Version": "1.0.1s"
+    },
+    {
+      "CVE": "CVE-2016-2177",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2178",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2179",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2180",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2181",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2182",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2183",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-2842",
+      "Fixed Version": "1.0.2g",
+      "Latest Version": "1.0.2f"
+    },
+    {
+      "CVE": "CVE-2016-6302",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-6303",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-6304",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-6304",
+      "Fixed Version": "1.1.0a",
+      "Latest Version": "1.1.0"
+    },
+    {
+      "CVE": "CVE-2016-6304",
+      "Fixed Version": "1.0.2",
+      "Latest Version": "1.0.1t"
+    },
+    {
+      "CVE": "CVE-2016-6305",
+      "Fixed Version": "1.1.0a",
+      "Latest Version": "1.1.0"
+    },
+    {
+      "CVE": "CVE-2016-6306",
+      "Fixed Version": "1.0.1u",
+      "Latest Version": "1.0.1t"
+    },
+    {
+      "CVE": "CVE-2016-6306",
+      "Fixed Version": "1.0.2i",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2016-6307",
+      "Fixed Version": "1.1.0a",
+      "Latest Version": "1.1.0"
+    },
+    {
+      "CVE": "CVE-2016-6308",
+      "Fixed Version": "1.1.0a",
+      "Latest Version": "1.1.0"
+    },
+    {
+      "CVE": "CVE-2016-6309",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0a"
+    },
+    {
+      "CVE": "CVE-2016-7052",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2i"
+    },
+    {
+      "CVE": "CVE-2016-7053",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0b"
+    },
+    {
+      "CVE": "CVE-2016-7054",
+      "Fixed Version": null,
+      "Latest Version": "1.1.0b"
+    },
+    {
+      "CVE": "CVE-2016-7055",
+      "Fixed Version": "1.1.0c",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2016-7056",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1u"
+    },
+    {
+      "CVE": "CVE-2016-7798",
+      "Fixed Version": null,
+      "Latest Version": "2.3.1"
+    },
+    {
+      "CVE": "CVE-2016-8610",
+      "Fixed Version": "1.1.0",
+      "Latest Version": "1.0.2h"
+    },
+    {
+      "CVE": "CVE-2015-0204",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zc"
+    },
+    {
+      "CVE": "CVE-2015-0205",
+      "Fixed Version": "1.0.1k",
+      "Latest Version": "1.0.1j"
+    },
+    {
+      "CVE": "CVE-2015-0206",
+      "Fixed Version": "1.0.1k",
+      "Latest Version": "1.0.1j"
+    },
+    {
+      "CVE": "CVE-2015-0207",
+      "Fixed Version": "1.0.2a",
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-0208",
+      "Fixed Version": "1.0.2a",
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-0209",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-0285",
+      "Fixed Version": "1.0.2a",
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-0286",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-0287",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-0288",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-0289",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-0290",
+      "Fixed Version": "1.0.2a",
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-0291",
+      "Fixed Version": "1.0.2a",
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-0292",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8z"
+    },
+    {
+      "CVE": "CVE-2015-0293",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8ze"
+    },
+    {
+      "CVE": "CVE-2015-1787",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2"
+    },
+    {
+      "CVE": "CVE-2015-1788",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zf"
+    },
+    {
+      "CVE": "CVE-2015-1789",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zf"
+    },
+    {
+      "CVE": "CVE-2015-1790",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zf"
+    },
+    {
+      "CVE": "CVE-2015-1791",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zf"
+    },
+    {
+      "CVE": "CVE-2015-1792",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zf"
+    },
+    {
+      "CVE": "CVE-2015-1793",
+      "Fixed Version": null,
+      "Latest Version": "1.0.2c"
+    },
+    {
+      "CVE": "CVE-2015-1794",
+      "Fixed Version": "1.0.2e",
+      "Latest Version": "1.0.2d"
+    },
+    {
+      "CVE": "CVE-2015-3193",
+      "Fixed Version": "1.0.2e",
+      "Latest Version": "1.0.2d"
+    },
+    {
+      "CVE": "CVE-2015-3194",
+      "Fixed Version": "1.0.2e",
+      "Latest Version": "1.0.2d"
+    },
+    {
+      "CVE": "CVE-2015-3195",
+      "Fixed Version": "1.0.2e",
+      "Latest Version": "1.0.2d"
+    },
+    {
+      "CVE": "CVE-2015-3196",
+      "Fixed Version": "1.0.2",
+      "Latest Version": "1.0.1o"
+    },
+    {
+      "CVE": "CVE-2015-3197",
+      "Fixed Version": "1.0.2f",
+      "Latest Version": "1.0.2e"
+    },
+    {
+      "CVE": "CVE-2015-3216",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1e-25.el7"
+    },
+    {
+      "CVE": "CVE-2015-4000",
+      "Fixed Version": "1.2",
+      "Latest Version": "1.0.2a"
+    },
+    {
+      "CVE": "CVE-2014-0076",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0l"
+    },
+    {
+      "CVE": "CVE-2014-0160",
+      "Fixed Version": "1.0.1g",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2014-0195",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8y"
+    },
+    {
+      "CVE": "CVE-2014-0195",
+      "Fixed Version": "1.0.1h",
+      "Latest Version": "1.0.1g"
+    },
+    {
+      "CVE": "CVE-2014-0195",
+      "Fixed Version": "1.0.1",
+      "Latest Version": "1.0.0l"
+    },
+    {
+      "CVE": "CVE-2014-0198",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.1g"
+    },
+    {
+      "CVE": "CVE-2014-0221",
+      "Fixed Version": "1.0.1",
+      "Latest Version": "1.0.0l"
+    },
+    {
+      "CVE": "CVE-2014-0221",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8y"
+    },
+    {
+      "CVE": "CVE-2014-0221",
+      "Fixed Version": "1.0.1h",
+      "Latest Version": "1.0.1g"
+    },
+    {
+      "CVE": "CVE-2014-0224",
+      "Fixed Version": "1.0.1h",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2014-3470",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1g"
+    },
+    {
+      "CVE": "CVE-2014-3470",
+      "Fixed Version": "1.0.1",
+      "Latest Version": "1.0.0l"
+    },
+    {
+      "CVE": "CVE-2014-3470",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8y"
+    },
+    {
+      "CVE": "CVE-2014-3505",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3506",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3507",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3508",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3509",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3510",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3511",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3512",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-3513",
+      "Fixed Version": "1.0.1j",
+      "Latest Version": "1.0.1i"
+    },
+    {
+      "CVE": "CVE-2014-3566",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1i"
+    },
+    {
+      "CVE": "CVE-2014-3567",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zb"
+    },
+    {
+      "CVE": "CVE-2014-3568",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zb"
+    },
+    {
+      "CVE": "CVE-2014-3569",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1j"
+    },
+    {
+      "CVE": "CVE-2014-3570",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zc"
+    },
+    {
+      "CVE": "CVE-2014-3571",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zc"
+    },
+    {
+      "CVE": "CVE-2014-3572",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zc"
+    },
+    {
+      "CVE": "CVE-2014-5139",
+      "Fixed Version": "1.0.1i",
+      "Latest Version": "1.0.1h"
+    },
+    {
+      "CVE": "CVE-2014-8176",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8z"
+    },
+    {
+      "CVE": "CVE-2014-8275",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8zc"
+    },
+    {
+      "CVE": "CVE-2013-0166",
+      "Fixed Version": "1.0.1d",
+      "Latest Version": "1.0.1c"
+    },
+    {
+      "CVE": "CVE-2013-0169",
+      "Fixed Version": "1.1",
+      "Latest Version": "1.0.1d"
+    },
+    {
+      "CVE": "CVE-2013-4353",
+      "Fixed Version": "1.0.1f",
+      "Latest Version": "1.0.1e"
+    },
+    {
+      "CVE": "CVE-2013-6449",
+      "Fixed Version": "1.0.2",
+      "Latest Version": "1.0.1e"
+    },
+    {
+      "CVE": "CVE-2013-6450",
+      "Fixed Version": "1.0.1f",
+      "Latest Version": "1.0.1e"
+    },
+    {
+      "CVE": "CVE-2012-0027",
+      "Fixed Version": "1.0.0f",
+      "Latest Version": "1.0.0e"
+    },
+    {
+      "CVE": "CVE-2012-0050",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0f"
+    },
+    {
+      "CVE": "CVE-2012-0884",
+      "Fixed Version": "0.9.8u",
+      "Latest Version": "0.9.8t"
+    },
+    {
+      "CVE": "CVE-2012-1165",
+      "Fixed Version": "0.9.8u",
+      "Latest Version": "0.9.8t"
+    },
+    {
+      "CVE": "CVE-2012-1165",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0g"
+    },
+    {
+      "CVE": "CVE-2012-2110",
+      "Fixed Version": "1.0.1",
+      "Latest Version": "1.0.0g"
+    },
+    {
+      "CVE": "CVE-2012-2110",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8u"
+    },
+    {
+      "CVE": "CVE-2012-2110",
+      "Fixed Version": "1.0.1a",
+      "Latest Version": "1.0.1"
+    },
+    {
+      "CVE": "CVE-2012-2131",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8v"
+    },
+    {
+      "CVE": "CVE-2012-2333",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8w"
+    },
+    {
+      "CVE": "CVE-2012-2333",
+      "Fixed Version": "1.0.1",
+      "Latest Version": "1.0.0h"
+    },
+    {
+      "CVE": "CVE-2012-2333",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1b"
+    },
+    {
+      "CVE": "CVE-2012-2686",
+      "Fixed Version": "1.1",
+      "Latest Version": "1.0.1c"
+    },
+    {
+      "CVE": "CVE-2011-0014",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8q"
+    },
+    {
+      "CVE": "CVE-2011-0014",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0c"
+    },
+    {
+      "CVE": "CVE-2011-1473",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8x"
+    },
+    {
+      "CVE": "CVE-2011-1473",
+      "Fixed Version": "0.9.8m",
+      "Latest Version": "0.9.8k"
+    },
+    {
+      "CVE": "CVE-2011-1945",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0d"
+    },
+    {
+      "CVE": "CVE-2011-3207",
+      "Fixed Version": "1.0.x",
+      "Latest Version": "1.0.0d"
+    },
+    {
+      "CVE": "CVE-2011-3210",
+      "Fixed Version": "1.0.x",
+      "Latest Version": "0.9.8s"
+    },
+    {
+      "CVE": "CVE-2011-3210",
+      "Fixed Version": "1.0.x",
+      "Latest Version": "1.0.0d"
+    },
+    {
+      "CVE": "CVE-2011-4108",
+      "Fixed Version": "0.9.8s",
+      "Latest Version": "0.9.8r"
+    },
+    {
+      "CVE": "CVE-2011-4108",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0e"
+    },
+    {
+      "CVE": "CVE-2011-4109",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8r"
+    },
+    {
+      "CVE": "CVE-2011-4354",
+      "Fixed Version": "0.9.8h",
+      "Latest Version": "0.9.8g"
+    },
+    {
+      "CVE": "CVE-2011-4576",
+      "Fixed Version": "3.0",
+      "Latest Version": "0.9.8r"
+    },
+    {
+      "CVE": "CVE-2011-4576",
+      "Fixed Version": "3.0",
+      "Latest Version": "1.0.0e"
+    },
+    {
+      "CVE": "CVE-2011-4577",
+      "Fixed Version": "0.9.8s",
+      "Latest Version": "0.9.8r"
+    },
+    {
+      "CVE": "CVE-2011-4577",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0e"
+    },
+    {
+      "CVE": "CVE-2011-4619",
+      "Fixed Version": "0.9.8s",
+      "Latest Version": "0.9.8r"
+    },
+    {
+      "CVE": "CVE-2011-4619",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0e"
+    },
+    {
+      "CVE": "CVE-2011-5095",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8"
+    },
+    {
+      "CVE": "CVE-2010-0433",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8m"
+    },
+    {
+      "CVE": "CVE-2010-0740",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8m"
+    },
+    {
+      "CVE": "CVE-2010-0742",
+      "Fixed Version": "0.9.8o",
+      "Latest Version": "0.9.8n"
+    },
+    {
+      "CVE": "CVE-2010-0742",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0"
+    },
+    {
+      "CVE": "CVE-2010-1633",
+      "Fixed Version": "1.x",
+      "Latest Version": "1.0.0"
+    },
+    {
+      "CVE": "CVE-2010-2939",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0a"
+    },
+    {
+      "CVE": "CVE-2010-3864",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0a"
+    },
+    {
+      "CVE": "CVE-2010-4180",
+      "Fixed Version": "1.0.x",
+      "Latest Version": "0.9.8p"
+    },
+    {
+      "CVE": "CVE-2010-4180",
+      "Fixed Version": "1.0.x",
+      "Latest Version": "1.0.0b"
+    },
+    {
+      "CVE": "CVE-2010-4252",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0b"
+    },
+    {
+      "CVE": "CVE-2010-5298",
+      "Fixed Version": null,
+      "Latest Version": "1.0.1g"
+    },
+    {
+      "CVE": "CVE-2009-0590",
+      "Fixed Version": "0.9.8k",
+      "Latest Version": "0.9.8h"
+    },
+    {
+      "CVE": "CVE-2009-0591",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8j"
+    },
+    {
+      "CVE": "CVE-2009-0653",
+      "Fixed Version": null,
+      "Latest Version": "0.9.6"
+    },
+    {
+      "CVE": "CVE-2009-0789",
+      "Fixed Version": "0.9.8k",
+      "Latest Version": "0.9.8j"
+    },
+    {
+      "CVE": "CVE-2009-1377",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8k"
+    },
+    {
+      "CVE": "CVE-2009-1378",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8k"
+    },
+    {
+      "CVE": "CVE-2009-1379",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0"
+    },
+    {
+      "CVE": "CVE-2009-1386",
+      "Fixed Version": "0.9.8i",
+      "Latest Version": "0.9.8g"
+    },
+    {
+      "CVE": "CVE-2009-1387",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8g"
+    },
+    {
+      "CVE": "CVE-2009-2409",
+      "Fixed Version": "2.6.4",
+      "Latest Version": "0.9.8k"
+    },
+    {
+      "CVE": "CVE-2009-3245",
+      "Fixed Version": "0.9.8m",
+      "Latest Version": "0.9.8l"
+    },
+    {
+      "CVE": "CVE-2009-3555",
+      "Fixed Version": "3.0",
+      "Latest Version": "0.9.8k"
+    },
+    {
+      "CVE": "CVE-2009-4355",
+      "Fixed Version": "1.0.0",
+      "Latest Version": "0.9.8l"
+    },
+    {
+      "CVE": "CVE-2009-4355",
+      "Fixed Version": null,
+      "Latest Version": "1.0.0"
+    },
+    {
+      "CVE": "CVE-2008-0166",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8g-9"
+    },
+    {
+      "CVE": "CVE-2008-0891",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8g"
+    },
+    {
+      "CVE": "CVE-2008-1672",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8g"
+    },
+    {
+      "CVE": "CVE-2008-1678",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8h"
+    },
+    {
+      "CVE": "CVE-2008-5077",
+      "Fixed Version": "0.9.8i",
+      "Latest Version": "0.9.8h"
+    },
+    {
+      "CVE": "CVE-2008-7270",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8i"
+    },
+    {
+      "CVE": "CVE-2007-3108",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8e"
+    },
+    {
+      "CVE": "CVE-2007-4995",
+      "Fixed Version": "0.9.8f",
+      "Latest Version": "0.9.8e"
+    },
+    {
+      "CVE": "CVE-2007-5135",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8f"
+    },
+    {
+      "CVE": "CVE-2007-5502",
+      "Fixed Version": "1.1.1",
+      "Latest Version": "fips_object_module"
+    },
+    {
+      "CVE": "CVE-2006-2937",
+      "Fixed Version": "0.9.8d",
+      "Latest Version": "0.9.8c"
+    },
+    {
+      "CVE": "CVE-2006-2940",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8c"
+    },
+    {
+      "CVE": "CVE-2006-3738",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8c"
+    },
+    {
+      "CVE": "CVE-2006-4339",
+      "Fixed Version": "0.9.8",
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2006-4343",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8c"
+    },
+    {
+      "CVE": "CVE-2006-7250",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8t"
+    },
+    {
+      "CVE": "CVE-2005-1797",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7d"
+    },
+    {
+      "CVE": "CVE-2005-2946",
+      "Fixed Version": "0.9.8",
+      "Latest Version": "0.9.7g"
+    },
+    {
+      "CVE": "CVE-2005-2969",
+      "Fixed Version": null,
+      "Latest Version": "0.9.8"
+    },
+    {
+      "CVE": "CVE-2004-0975",
+      "Fixed Version": "1.5",
+      "Latest Version": "0.9.7d"
+    },
+    {
+      "CVE": "CVE-2003-0078",
+      "Fixed Version": "0.9.7a",
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2003-0131",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7a"
+    },
+    {
+      "CVE": "CVE-2003-0147",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7a"
+    },
+    {
+      "CVE": "CVE-2003-0543",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2003-0544",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2003-0545",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-1999-0428",
+      "Fixed Version": null,
+      "Latest Version": "*"
+    },
+    {
+      "CVE": "CVE-2000-0535",
+      "Fixed Version": null,
+      "Latest Version": "0.9.4"
+    },
+    {
+      "CVE": "CVE-2000-1254",
+      "Fixed Version": "0.9.6",
+      "Latest Version": "0.9.5"
+    },
+    {
+      "CVE": "CVE-2001-1141",
+      "Fixed Version": "0.9.6b",
+      "Latest Version": "0.9.6a"
+    },
+    {
+      "CVE": "CVE-2002-0655",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2002-0656",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2002-0657",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2002-0659",
+      "Fixed Version": null,
+      "Latest Version": "0.9.7"
+    },
+    {
+      "CVE": "CVE-2002-1568",
+      "Fixed Version": null,
+      "Latest Version": "0.9.6e"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "libeven": [
+    {
+      "CVE": "CVE-2016-10195",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5"
+    },
+    {
+      "CVE": "CVE-2016-10196",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5"
+    },
+    {
+      "CVE": "CVE-2016-10197",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5"
+    },
+    {
+      "CVE": "CVE-2015-6525",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2014-6272",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2007-1030",
+      "Fixed Version": null,
+      "Latest Version": null
+    }
+  ]
+}

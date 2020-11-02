@@ -1,0 +1,34 @@
+{
+  "poco": [
+    {
+      "CVE": "CVE-2019-8341",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2017-1000472",
+      "Fixed Version": "1.8",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2016-10659",
+      "Fixed Version": null,
+      "Latest Version": "1.7.7"
+    },
+    {
+      "CVE": "CVE-2014-0012",
+      "Fixed Version": null,
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2014-0350",
+      "Fixed Version": "1.4.6p4",
+      "Latest Version": "1.4.6"
+    },
+    {
+      "CVE": "CVE-2014-1402",
+      "Fixed Version": "2.7.2",
+      "Latest Version": "2.7.1"
+    }
+  ]
+}

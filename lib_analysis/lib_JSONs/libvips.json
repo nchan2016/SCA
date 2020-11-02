@@ -1,0 +1,19 @@
+{
+  "libvips": [
+    {
+      "CVE": "CVE-2019-17534",
+      "Fixed Version": "8.8.2",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2019-6976",
+      "Fixed Version": "8.7.4",
+      "Latest Version": null
+    },
+    {
+      "CVE": "CVE-2018-7998",
+      "Fixed Version": "8.6.3",
+      "Latest Version": null
+    }
+  ]
+}

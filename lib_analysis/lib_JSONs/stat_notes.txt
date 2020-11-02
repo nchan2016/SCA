@@ -1,0 +1,91 @@
+libsodium:
+Number of CVEs:  0
+Fixed:  0
+
+librdkafka:
+Number of CVEs:  0
+Fixed:  0
+
+stb:
+Number of CVEs:  22
+Fixed:  0
+
+mongoose:
+Number of CVEs:  28
+Fixed:  3
+
+ccv:
+Number of CVEs:  0
+Fixed:  0
+
+fishhook:
+Number of CVEs:  0
+Fixed:  0
+
+libgit2:
+Number of CVEs:  13
+Fixed:  13
+
+raylib:
+Number of CVEs:  0
+Fixed:  0
+
+firmware:
+Number of CVEs:  26
+Fixed:  3
+
+webview:
+Number of CVEs:  0
+Fixed:  0
+
+nanoms:
+Number of CVEs:  0
+Fixed:  0
+
+FreeRDP:
+Number of CVEs:  0
+Fixed:  0
+
+openssl:
+Number of CVEs:  233
+Fixed:  160
+
+curl:
+Number of CVEs:  66
+Fixed:  25
+
+libvips:
+Number of CVEs:  3
+Fixed:  3
+
+lfw:
+Number of CVEs:  0
+Fixed:  0
+
+libu:
+Number of CVEs:  20
+Fixed:  9
+
+nuklear:
+Number of CVEs:  0
+Fixed:  0
+
+poco:
+Number of CVEs:  6
+Fixed:  3
+
+libeven:
+Number of CVEs:  6
+Fixed:  0
+
+Total:
+Number of CVEs: 423
+Fixed:  219
+
+
+Objectives:
+False positive rate on fixed vuls
+False positive rate on commit finding 
+False negatives on libraries with no CVEs
+
+Number of libraries: 20
