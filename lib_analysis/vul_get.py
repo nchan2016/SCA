@@ -7,9 +7,10 @@ from sys import argv
 
 def main():
     libname = argv[1]
+    publisher = argv[2]
     CPE = ":" + libname 
     CVEs = []
-    CVEs = get_all_vul("CVE_JSONs/JSON/", CPE)
+    CVEs = get_all_vul("CVE_JSONs/JSON/", CPE, publisher)
     t = write_json(CVEs, libname)
     if t != 0:
         print("Unable to write json")
@@ -54,20 +55,23 @@ class CVE:
             s_array = self.description.split(" ")
             for string in s_array:
                 if '.' in string and string[0].isdigit():
-                    if version.parse(letter_Version(string)) > version.parse(letter_Version(self.l_version)):
-                        self.set_fix_version(string)
-                        return 0
+                    if self.fix_version == None:
+                        if version.parse(letter_Version(string)) > version.parse(letter_Version(self.l_version)):
+                            self.set_fix_version(string)
+                    else:
+                        if version.parse(letter_Version(string)) > version.parse(letter_Version(self.fix_version)):
+                            self.set_fix_version(string)
             return 0
 
 
-def check_child(children, libname):
+def check_child(children, libname, publisher):
     for x in children:
         if check_key(x, "children"):
             return check_child(children["children"], libname)
         if check_Key_Error(x, "cpe_match") == 0:
             for t in x["cpe_match"]:
                 if check_Key_Error(t, "cpe23Uri") == 0:
-                    if libname in t["cpe23Uri"]:
+                    if libname in t["cpe23Uri"] and publisher in t["cpe23Uri"]:
                         return True
 
 def write_json(CVEs, libname):
@@ -84,13 +88,13 @@ def write_json(CVEs, libname):
         json.dump(data, outfile, indent=2)
     return 0
 
-def get_all_vul(directory, lib):
+def get_all_vul(directory, lib, publisher):
     year = 2020
     os.system("cd CVE_JSONs/JSON")
     CVEs = []
     for x in range(year, 2001, -1):
         filename = "{}nvdcve-1.1-{}.json".format(directory, x)
-        for i in extract_from_json(filename, lib):
+        for i in extract_from_json(filename, lib, publisher):
             print(i.CVE_id)
             #i.find_l_version2()
             if i.fix_version != None:
@@ -115,7 +119,7 @@ def parse_Uri(lib, array):
         elif lib == a:
             b = True
 
-def extract_from_json(fname, libname):
+def extract_from_json(fname, libname, publisher):
     CVEs = []
     with open(fname, 'r') as file:
         data = file.read().replace('\n', '')
@@ -123,7 +127,7 @@ def extract_from_json(fname, libname):
     for n in y["CVE_Items"]:
         for x in n["configurations"]["nodes"]:
             if check_key(x, "children"):
-                if check_child(x["children"], libname):
+                if check_child(x["children"], libname, publisher):
                     if check_Key_Error(x, "cpe_match") == 0:
                         c_ID = n["cve"]["CVE_data_meta"]["ID"]
                         description = n["cve"]["description"]["description_data"][0]["value"]
@@ -132,7 +136,7 @@ def extract_from_json(fname, libname):
             else:
                 if check_Key_Error(x, "cpe_match") == 0:
                     for w in x["cpe_match"]:
-                        if w["vulnerable"] == True and libname in w["cpe23Uri"]:
+                        if w["vulnerable"] == True and libname in w["cpe23Uri"] and publisher in w["cpe23Uri"]:
                             if n["cve"]["CVE_data_meta"]["ID"] not in CVEs:
                                 ID = n["cve"]["CVE_data_meta"]["ID"]
                                 description = n["cve"]["description"]["description_data"][0]["value"]

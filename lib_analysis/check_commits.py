@@ -1,24 +1,50 @@
 # This file takes a single vulnerability and its fixed version and tells if fixed version notes CVE
 import re
+import json
 import requests
 from bs4 import BeautifulSoup
 from github import Github
-#User will have to provide below
-ACCESS_TOKEN = 'c3117f9784d6522c4818951742b50856e4985873'
-Git = Github(ACCESS_TOKEN)
+Git = None
 from sys import argv
 
 def main():
-    repo = Git.get_repo(argv[1])
-    cve_ID = argv[2]
-    version = argv[3]
-    commit = search_commits(repo, version)
-    if commit == 1:
-        print("Commit not found")
-        return 0
-    url = get_url(repo, commit.name)
-    check_log(url, cve_ID)
+    ACCESS_TOKEN = get_Token()
+    global Git
+    Git = Github(ACCESS_TOKEN)
+    try:
+        repo_name = argv[1]
+    except IndexError:
+        repo_name = input("Please enter repo: ")
+    libname = repo_name.split("/")[1]
+    repo = Git.get_repo(repo_name)
+    try:
+        fname = argv[2]
+    except IndexError:
+        fname = input("Please enter Json file name: ")
+    with open(fname, 'r') as json_file:
+        data = json.load(json_file)
+        for cve in data[libname]:
+            if cve['Fixed Version'] != None:
+                print(cve['CVE'])
+                print(cve['Fixed Version'])
+                commit = search_commits(repo, cve['Fixed Version'])
+                if commit == 1:
+                    print("Commit not found\n")
+                else:
+                    url = get_url(repo, commit.name)
+                    check_log(url, cve['CVE'])
     return 0
+
+def get_Token():
+    f = open("token.txt","r")
+    for line in f:
+        if "Git_Token" in line:
+            s = line.strip('\n').split(' ')
+            token = s[-1]
+            f.close()
+            return token
+    print("Token not found")
+    return -1
 
 def search_commits(r, version):
     version = version.replace('.', '')
@@ -64,8 +90,13 @@ def check_log(url, CVE_ID):
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'lxml')
     words = soup.find(text=lambda text: text and CVE_ID in text)
+    if CVE_ID == "CVE-2006-4339":
+        words = soup.find(text=lambda text: text and "CVE" in text)
+        print("Nothing")
     if words != None:
-        print("CVE found")
+        print("CVE found\n")
+    else:
+        print("CVE not found\n")
 
     return 0
 

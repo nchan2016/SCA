@@ -13,12 +13,15 @@ def vul_get():
         print(line)
     #print('\n'*2)
     f.close()
-    f2 = open("repo_names.txt", "r")
-    print("Repo CVES: \n")
+    f2 = open("repo_with_owners.txt", "r")
+    print("Repo CVES: ")
     for line in f2:
+        line = line.split("/")
+        line[1] = line[1].strip('\n')
+        line.reverse()
+        line = ' '.join(line)
         command = "python3 vul_get.py " + line
-        print(line)
-        print(": ")
+        print(line + ":")
         os.system(command)
         
 if __name__ == '__main__':
