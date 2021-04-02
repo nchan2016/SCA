@@ -20,6 +20,7 @@ class CVE:
     def __init__(self, CVE_id, d):
         self.CVE_id = CVE_id
         self.vul_versions = []
+        self.access_vector = None
         self.l_version = None
         self.fix_version = None
         self.description = d
@@ -31,6 +32,8 @@ class CVE:
         self.l_version = version
     def set_fix_version(self, version):
         self.fix_version = version
+    def set_access_vector(self, vector):
+        self.access_vector = vector
     def find_l_version2(self):
         if self.vul_versions == []:
             return 0
@@ -81,7 +84,8 @@ def write_json(CVEs, libname):
         data[libname].append({
             'CVE': c.CVE_id,
             'Fixed Version': c.fix_version,
-            'Latest Version': c.l_version
+            'Latest Version': c.l_version,
+            'Access Vector': c.access_vector
         })
     fname = "lib_JSONs/"+ libname + ".json"
     with open(fname, 'w') as outfile:
@@ -132,6 +136,7 @@ def extract_from_json(fname, libname, publisher):
                         c_ID = n["cve"]["CVE_data_meta"]["ID"]
                         description = n["cve"]["description"]["description_data"][0]["value"]
                         C_CVE = get_Versions(x["cpe_match"], ID, libname, description)
+                        C_CVE.set_access_vector(n["impact"]["baseMetricV2"]["cvssV2"]["vectorString"])
                         CVEs.append(C_CVE)
             else:
                 if check_Key_Error(x, "cpe_match") == 0:
@@ -141,6 +146,7 @@ def extract_from_json(fname, libname, publisher):
                                 ID = n["cve"]["CVE_data_meta"]["ID"]
                                 description = n["cve"]["description"]["description_data"][0]["value"]
                                 c = get_Versions(x["cpe_match"], ID, libname, description)
+                                c.set_access_vector(n["impact"]["baseMetricV2"]["cvssV2"]["vectorString"])
                                 CVEs.append(c)
                             break
     return CVEs
