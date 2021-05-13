@@ -1,0 +1,187 @@
+libsodium:
+Number of CVEs:  0
+Fixed:  0
+
+
+libevent:
+Number of CVEs:  6
+Fixed:  2
+
+
+librdkafka:
+Number of CVEs:  0
+Fixed:  0
+
+
+stb:
+Number of CVEs:  10
+Fixed:  0
+
+
+glfw:
+Number of CVEs:  0
+Fixed:  0
+
+
+mongoose:
+Number of CVEs:  22
+Fixed:  3
+
+
+ccv:
+Number of CVEs:  0
+Fixed:  0
+
+
+fishhook:
+Number of CVEs:  0
+Fixed:  0
+
+
+libgit2:
+Number of CVEs:  13
+Fixed:  13
+
+
+libui:
+Number of CVEs:  0
+Fixed:  0
+
+
+raylib:
+Number of CVEs:  0
+Fixed:  0
+
+
+firmware:
+Number of CVEs:  0
+Fixed:  0
+
+
+nanomsg:
+Number of CVEs:  0
+Fixed:  0
+
+
+webview:
+Number of CVEs:  0
+Fixed:  0
+
+
+FreeRDP:
+Number of CVEs:  0
+Fixed:  0
+
+
+openssl:
+Number of CVEs:  233
+Fixed:  160
+
+
+curl:
+Number of CVEs:  66
+Fixed:  25
+
+
+libvips:
+Number of CVEs:  3
+Fixed:  3
+
+
+nuklear:
+Number of CVEs:  0
+Fixed:  0
+
+
+poco:
+Number of CVEs:  2
+Fixed:  2
+
+
+Fixed index:
+1-2: libevent
+3-5: mongoose
+6-18: libgit2
+19-178: openssl
+179-203: curl
+204-206: libvips
+207-208: poco
+
+Total number of CVEs: 349
+
+2 3 12 18 21 24 31 33 36 39 41 49 56 61 74 81 85 86 89 90 95 113 154 155 161 168 172 188 203 205
+
+2: F (letter error)
+3: T
+12: T
+18: T* (dependency of lib)
+21: T
+24: T
+31: T
+33: F (dependency of lib and lack of version numbers in CPE)
+36: T
+39: T
+41: T
+49: T
+56: T
+61: T
+74: T
+81: F (Branching problem)
+85: T
+86: F (Branching problem)
+89: F (Branching problem)
+90: F (Branching problem)
+95: T
+113: T
+154: T
+155: T
+161: T
+168: F (Fixed version not listed)
+172: F (Branching problem)
+188: T
+203: T
+205: T
+207: T
+208: T
+
+2nd Run:
+
+3, 5, 7, 12, 16, 20, 27, 28, 30, 40, 43, 49, 55, 93, 99, 108, 114, 124, 129, 164, 169, 176, 177, 180, 183, 186, 190, 196, 198, 204
+
+3: T
+5: F (No fixed version listed)
+7: T
+12: T
+16: T
+20: F (No fixed version listed)
+27: T
+28: T
+30: T
+40: T
+43: T
+49: T
+55: T
+93: T
+99: T
+108: T
+114: T
+124: T
+129: T
+164: T
+169: F (No fixed version listed)
+176: T
+177: T
+180: T
+183: T
+186: T
+190: T
+196: T
+198: T
+204: T
+
+(Note: may need to address wildcard issue. Wildcard characters such as x throw off the program. Ex. Fixed version is 1.1.7 and vul versions are 1.1.x up to 1.1.6)
+
+Mean: 0.90625
+Standard deviation: 0.2961
+Standard Error: 0.05235
+95% confidence interval: 90.63% +- 10.3

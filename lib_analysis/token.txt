@@ -1,1 +1,5 @@
-04fed68f42d29f8b22bfa9427af712abca90197b
+Generate the token by going to your Github profile, go to Settings, Developer settings, Personal Access Tokens, Generate new Token
+
+Check repo, generate, then copy and paste below:
+
+Git_Token: 22492aca70eb8336b956fb1b7021cd09548a41e8

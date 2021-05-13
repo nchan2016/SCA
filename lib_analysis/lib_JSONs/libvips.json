@@ -3,17 +3,20 @@
     {
       "CVE": "CVE-2019-17534",
       "Fixed Version": "8.8.2",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
     },
     {
       "CVE": "CVE-2019-6976",
       "Fixed Version": "8.7.4",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
     },
     {
       "CVE": "CVE-2018-7998",
       "Fixed Version": "8.6.3",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
     }
   ]
 }

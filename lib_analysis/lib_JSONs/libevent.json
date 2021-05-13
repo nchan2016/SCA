@@ -1,0 +1,40 @@
+{
+  "libevent": [
+    {
+      "CVE": "CVE-2016-10195",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2016-10196",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2016-10197",
+      "Fixed Version": null,
+      "Latest Version": "2.1.5",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2015-6525",
+      "Fixed Version": "2.1.x",
+      "Latest Version": "2.1.4",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2014-6272",
+      "Fixed Version": "2.1.x",
+      "Latest Version": "2.1.4",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2007-1030",
+      "Fixed Version": null,
+      "Latest Version": "1.2a",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C"
+    }
+  ]
+}

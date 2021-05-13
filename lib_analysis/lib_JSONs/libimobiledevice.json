@@ -1,0 +1,52 @@
+{
+  "libimobiledevice": [
+    {
+      "CVE": "CVE-2017-5209",
+      "Fixed Version": null,
+      "Latest Version": "1.12",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-5545",
+      "Fixed Version": null,
+      "Latest Version": "1.12",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-5834",
+      "Fixed Version": null,
+      "Latest Version": "libplist",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-5835",
+      "Fixed Version": null,
+      "Latest Version": "libplist",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-5836",
+      "Fixed Version": null,
+      "Latest Version": "libplist",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-7982",
+      "Fixed Version": null,
+      "Latest Version": "1.12",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2016-5104",
+      "Fixed Version": null,
+      "Latest Version": "1.0.10",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+    },
+    {
+      "CVE": "CVE-2013-2142",
+      "Fixed Version": null,
+      "Latest Version": "1.1.4",
+      "Access Vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P"
+    }
+  ]
+}

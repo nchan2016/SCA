@@ -40,7 +40,7 @@ def write_repos(repos):
 
 def get_repos(keywords):
     git_repos = []
-    count = 20
+    count = 100
     query = '+'.join(keywords)
     print(query)
     result = g.search_repositories(query, 'stars', 'desc')
@@ -48,7 +48,7 @@ def get_repos(keywords):
     print(f'Found {result.totalCount} repo(s)')
 
     for repo in result:
-        if repo.stargazers_count >= 3000 and count != 0:
+        if count != 0:
             print(f'{repo.clone_url}, {repo.language}, {repo.stargazers_count} stars')
             git_repos.append(repo.clone_url)
             count = count - 1

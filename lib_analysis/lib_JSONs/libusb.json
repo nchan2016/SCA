@@ -1,0 +1,10 @@
+{
+  "libusb": [
+    {
+      "CVE": "CVE-2016-5104",
+      "Fixed Version": null,
+      "Latest Version": "1.0.10",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+    }
+  ]
+}

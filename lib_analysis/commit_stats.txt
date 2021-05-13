@@ -1,0 +1,61 @@
+Openssl:
+160 fixed CVEs
+24 commit couldn't be found
+59 CVE ID not found in fix commit
+77 CVE ID found in fix commit
+
+Libgit2: (all verified)
+13 fixed CVEs
+3 commit couldn't be found
+10 CVE ID not found in fix commit
+0 CVE ID found in fix commit
+
+Curl:
+25 fixed CVEs
+1 commit couldn't be found
+0 CVE ID not found in fix commit
+24 CVE ID found in fix commit
+
+Poco: (all verified)
+2 fixed CVEs
+2 CVE ID not found in fix commit
+
+Libevent: (Wildcard problem)
+2 Fixed CVEs
+2 commit couldn't be found
+
+Mongoose: (all verified)
+3 Fixed CVEs
+3 CVE ID not found in fix commit
+
+libvips: (all verified)
+3 Fixed CVEs
+3 CVE ID not found in fix commit
+
+Openssl/Curl random sample: 20,26,28,30,35,39,44,67,69,71,87,120,129,137,152,161,164,165,169,175,189,192,194,196,203
+
+20: T* (Error in vul_get.py)
+26: T
+28: T
+30: T
+35: T (Wrong fixed version)
+39: T* (Fixed version found isn't vulnerable but it's not the version that implemented the fix)
+44: T
+67: T
+69: T
+71: T
+87: T
+120: T* (Wrong fixed version)
+129: T
+137: T
+152: T* (Wrong fixed version)
+161: T
+164: T
+165: T* (Wrong fixed version)
+169: T
+175: T* (Wrong fixed version)
+189: T* (Fix on next web page. Look into looking at all commits)
+192: T* (Fix on next web page. Look into scanning all commits)
+194: T* (Fix on next web page. Look into scanning all commits)
+196: T
+203: T

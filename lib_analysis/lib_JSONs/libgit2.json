@@ -3,67 +3,80 @@
     {
       "CVE": "CVE-2020-12278",
       "Fixed Version": "0.28.4",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
     },
     {
       "CVE": "CVE-2020-12279",
       "Fixed Version": "0.28.4",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
     },
     {
       "CVE": "CVE-2018-10887",
       "Fixed Version": "0.27.3",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
     },
     {
       "CVE": "CVE-2018-10888",
       "Fixed Version": "0.27.3",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2018-15501",
       "Fixed Version": "0.27.4",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2018-8098",
       "Fixed Version": "0.26.2",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2018-8099",
       "Fixed Version": "0.26.2",
-      "Latest Version": null
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2016-10128",
-      "Fixed Version": "0.24.6",
-      "Latest Version": "0.24.5"
+      "Fixed Version": "0.25.x",
+      "Latest Version": "0.24.5",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
     },
     {
       "CVE": "CVE-2016-10129",
-      "Fixed Version": "0.24.6",
-      "Latest Version": "0.24.5"
+      "Fixed Version": "0.25.x",
+      "Latest Version": "0.24.5",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2016-10130",
-      "Fixed Version": "0.24.6",
-      "Latest Version": "0.24.5"
+      "Fixed Version": "0.25.x",
+      "Latest Version": "0.24.5",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N"
     },
     {
       "CVE": "CVE-2016-8568",
       "Fixed Version": "0.24.3",
-      "Latest Version": "0.24.2"
+      "Latest Version": "0.24.2",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2016-8569",
       "Fixed Version": "0.24.3",
-      "Latest Version": "0.24.2"
+      "Latest Version": "0.24.2",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
     },
     {
       "CVE": "CVE-2014-9390",
-      "Fixed Version": "1.8.5.6,",
-      "Latest Version": "-"
+      "Fixed Version": "6.2",
+      "Latest Version": "-",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
     }
   ]
 }

@@ -1,0 +1,152 @@
+CVE-2020-9308
+3.4.2
+CVE not found
+
+CVE-2019-1000019
+3.4.0
+CVE not found
+
+CVE-2019-1000020
+3.4.0
+CVE not found
+
+CVE-2018-1000877
+3.4.0
+CVE not found
+
+CVE-2018-1000878
+3.4.0
+CVE not found
+
+CVE-2018-1000879
+3.4.0
+CVE not found
+
+CVE-2018-1000880
+3.4.0
+CVE not found
+
+CVE-2016-1541
+3.2.0
+CVE found
+
+CVE-2016-4300
+3.2.1
+CVE not found
+
+CVE-2016-4301
+3.2.1
+CVE not found
+
+CVE-2016-4302
+3.2.1
+CVE not found
+
+CVE-2016-4809
+3.2.1
+CVE not found
+
+CVE-2016-5844
+3.2.1
+CVE not found
+
+CVE-2016-6250
+3.2.1
+CVE not found
+
+CVE-2016-7166
+3.2.0
+CVE not found
+
+CVE-2015-8915
+3.2.0
+CVE not found
+
+CVE-2015-8916
+3.2.0
+CVE not found
+
+CVE-2015-8917
+3.2.0
+CVE not found
+
+CVE-2015-8918
+3.2.0
+CVE not found
+
+CVE-2015-8919
+3.2.0
+CVE not found
+
+CVE-2015-8920
+3.2.0
+CVE not found
+
+CVE-2015-8921
+3.2.0
+CVE not found
+
+CVE-2015-8922
+3.2.0
+CVE not found
+
+CVE-2015-8923
+3.2.0
+CVE not found
+
+CVE-2015-8924
+3.2.0
+CVE not found
+
+CVE-2015-8925
+3.2.0
+CVE not found
+
+CVE-2015-8926
+3.2.0
+CVE not found
+
+CVE-2015-8927
+3.2.0
+CVE not found
+
+CVE-2015-8928
+3.2.0
+CVE not found
+
+CVE-2015-8929
+3.2.0
+CVE not found
+
+CVE-2015-8930
+3.2.0
+CVE not found
+
+CVE-2015-8931
+3.2.0
+CVE not found
+
+CVE-2015-8932
+3.2.0
+CVE not found
+
+CVE-2015-8933
+3.2.0
+CVE not found
+
+CVE-2015-8934
+3.2.0
+CVE not found
+
+CVE-2007-3641
+2.2.4
+Commit not found
+
+CVE-2007-3644
+2.2.4
+Commit not found
+
+CVE-2007-3645
+2.2.4
+Commit not found
+

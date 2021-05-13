@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from github import Github
 Git = None
 from sys import argv
+import time
 
 def main():
     ACCESS_TOKEN = get_Token()
@@ -33,6 +34,7 @@ def main():
                 else:
                     url = get_url(repo, commit.name)
                     check_log(url, cve['CVE'])
+                    time.sleep(10)
     return 0
 
 def get_Token():

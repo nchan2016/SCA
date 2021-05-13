@@ -1,0 +1,58 @@
+{
+  "aubio": [
+    {
+      "CVE": "CVE-2018-14521",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-14522",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-14523",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-19800",
+      "Fixed Version": null,
+      "Latest Version": "0.4.8",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-19801",
+      "Fixed Version": null,
+      "Latest Version": "0.4.8",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2018-19802",
+      "Fixed Version": null,
+      "Latest Version": "0.4.8",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-17054",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-17554",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-17555",
+      "Fixed Version": null,
+      "Latest Version": "0.4.6",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    }
+  ]
+}

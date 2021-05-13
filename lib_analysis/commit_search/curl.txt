@@ -1,0 +1,100 @@
+CVE-2017-2629
+7.53.0
+CVE found
+
+CVE-2017-8816
+7.57.0
+CVE found
+
+CVE-2017-8817
+7.57.0
+CVE found
+
+CVE-2017-8818
+7.57.0
+CVE found
+
+CVE-2017-9502
+7.54.1
+CVE found
+
+CVE-2016-0755
+7.47.0
+CVE found
+
+CVE-2016-8615
+7.51.0
+CVE found
+
+CVE-2016-8616
+7.51.0
+CVE found
+
+CVE-2016-8617
+7.51.0
+CVE not found
+
+CVE-2016-8618
+7.51.0
+CVE not found
+
+CVE-2016-8619
+7.51.0
+CVE not found
+
+CVE-2016-8620
+7.51.0
+CVE not found
+
+CVE-2016-8621
+7.51.0
+CVE not found
+
+CVE-2016-8623
+7.51.0
+CVE not found
+
+CVE-2016-8624
+7.51.0
+CVE not found
+
+CVE-2016-8625
+7.51.0
+CVE not found
+
+CVE-2016-9586
+7.52.0
+CVE not found
+
+CVE-2016-9594
+7.52.1
+CVE not found
+
+CVE-2015-3153
+7.42.1
+CVE not found
+
+CVE-2014-0138
+7.36.0
+CVE not found
+
+CVE-2014-3613
+192.168.0.1
+Commit not found
+
+CVE-2014-3620
+7.38.0
+CVE found
+
+CVE-2013-1944
+7.30.0
+CVE found
+
+CVE-2012-0036
+7.24.0
+CVE found
+
+CVE-2003-1605
+7.10.7
+CVE not found
+

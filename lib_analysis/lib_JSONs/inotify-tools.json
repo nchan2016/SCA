@@ -1,0 +1,10 @@
+{
+  "inotify-tools": [
+    {
+      "CVE": "CVE-2007-5037",
+      "Fixed Version": "3.11",
+      "Latest Version": "3.10",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+    }
+  ]
+}

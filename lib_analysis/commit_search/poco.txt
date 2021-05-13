@@ -1,0 +1,8 @@
+CVE-2017-1000472
+1.8
+CVE not found
+
+CVE-2014-0350
+1.4.6p4
+CVE not found
+

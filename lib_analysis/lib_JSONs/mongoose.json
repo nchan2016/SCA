@@ -11,11 +11,6 @@
       "Latest Version": "6.15"
     },
     {
-      "CVE": "CVE-2019-17426",
-      "Fixed Version": null,
-      "Latest Version": "5.7.4"
-    },
-    {
       "CVE": "CVE-2019-19307",
       "Fixed Version": null,
       "Latest Version": "6.16"
@@ -114,31 +109,6 @@
       "CVE": "CVE-2017-7185",
       "Fixed Version": "6.7",
       "Latest Version": "1.2"
-    },
-    {
-      "CVE": "CVE-2014-2829",
-      "Fixed Version": null,
-      "Latest Version": "1.3.1"
-    },
-    {
-      "CVE": "CVE-2011-2900",
-      "Fixed Version": null,
-      "Latest Version": "3.0"
-    },
-    {
-      "CVE": "CVE-2009-1354",
-      "Fixed Version": null,
-      "Latest Version": "2.4"
-    },
-    {
-      "CVE": "CVE-2009-4530",
-      "Fixed Version": null,
-      "Latest Version": "2.8"
-    },
-    {
-      "CVE": "CVE-2009-4535",
-      "Fixed Version": null,
-      "Latest Version": "2.8.0"
     }
   ]
 }

@@ -1,0 +1,94 @@
+{
+  "sleuthkit": [
+    {
+      "CVE": "CVE-2020-10232",
+      "Fixed Version": null,
+      "Latest Version": "4.8.0",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2020-10233",
+      "Fixed Version": null,
+      "Latest Version": "4.8.0",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2019-1010065",
+      "Fixed Version": null,
+      "Latest Version": "4.6.0",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2019-14531",
+      "Fixed Version": null,
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2019-14532",
+      "Fixed Version": null,
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-1000838",
+      "Fixed Version": null,
+      "Latest Version": "4.9.0",
+      "Access Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+    },
+    {
+      "CVE": "CVE-2018-11737",
+      "Fixed Version": null,
+      "Latest Version": "4.6.1",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2018-11738",
+      "Fixed Version": null,
+      "Latest Version": "4.6.1",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2018-11739",
+      "Fixed Version": null,
+      "Latest Version": "4.6.1",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2018-11740",
+      "Fixed Version": null,
+      "Latest Version": "4.6.1",
+      "Access Vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2018-19497",
+      "Fixed Version": null,
+      "Latest Version": "4.6.4",
+      "Access Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-13755",
+      "Fixed Version": null,
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-13756",
+      "Fixed Version": null,
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2017-13760",
+      "Fixed Version": null,
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P"
+    },
+    {
+      "CVE": "CVE-2012-5619",
+      "Fixed Version": "4.0.1",
+      "Latest Version": "the_sleuth_kit",
+      "Access Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+    }
+  ]
+}

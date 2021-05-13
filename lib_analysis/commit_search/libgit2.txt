@@ -1,0 +1,52 @@
+CVE-2020-12278
+0.28.4
+CVE not found
+
+CVE-2020-12279
+0.28.4
+CVE not found
+
+CVE-2018-10887
+0.27.3
+CVE not found
+
+CVE-2018-10888
+0.27.3
+CVE not found
+
+CVE-2018-15501
+0.27.4
+CVE not found
+
+CVE-2018-8098
+0.26.2
+CVE not found
+
+CVE-2018-8099
+0.26.2
+CVE not found
+
+CVE-2016-10128
+0.25.x
+Commit not found
+
+CVE-2016-10129
+0.25.x
+Commit not found
+
+CVE-2016-10130
+0.25.x
+Commit not found
+
+CVE-2016-8568
+0.24.3
+CVE not found
+
+CVE-2016-8569
+0.24.3
+CVE not found
+
+CVE-2014-9390
+6.2
+CVE not found
+

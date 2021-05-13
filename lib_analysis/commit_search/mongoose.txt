@@ -1,0 +1,12 @@
+CVE-2019-12951
+6.15
+CVE not found
+
+CVE-2017-11567
+6.9
+CVE not found
+
+CVE-2017-7185
+6.7
+CVE not found
+
