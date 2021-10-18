@@ -11,7 +11,7 @@ import time
 def main():
     ACCESS_TOKEN = get_Token()
     global Git
-    Git = Github(ACCESS_TOKEN)
+    Git = Github(login_or_token=ACCESS_TOKEN)
     #ex: openssl/openssl
     try:
         repo_name = argv[1]
@@ -51,6 +51,7 @@ def get_Token():
             s = line.strip('\n').split(' ')
             token = s[-1]
             f.close()
+            print(token)
             return token
     print("Token not found")
     return -1
