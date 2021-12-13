@@ -2,18 +2,20 @@
 import json
 import os
 import re
+import check_commits
 from packaging import version
 from sys import argv
 
 def main():
-    libname = argv[1]
-    publisher = argv[2]
-    CPE = ":" + libname 
+    software = input("Enter the name of the software: ")
+    publisher = input("Enter the name of the vendor or publisher.Use the name of the software if this is unknown: ")
+    JSON_Path = input("Enter the path of the directory conatining the CVE database JSON files: ")
+    if JSON_Path[-1] != '/':
+        JSON_Path = JSON_Path + '/'
+    CPE = ":" + software 
     CVEs = []
-    CVEs = get_all_vul("CVE_JSONs/JSON/", CPE, publisher)
-    t = write_json(CVEs, libname)
-    if t != 0:
-        print("Unable to write json")
+    CVEs = get_all_vul(JSON_Path, CPE, publisher)
+    t = write_json(CVEs, software)
     return 0
 
 class CVE:
@@ -87,10 +89,11 @@ def write_json(CVEs, libname):
             'Latest Version': c.l_version,
             'Access Vector': c.access_vector
         })
-    fname = "lib_JSONs/"+ libname + ".json"
+    fname = libname + ".json"
+    #fname = "lib_JSONs/"+ libname + ".json"
     with open(fname, 'w') as outfile:
         json.dump(data, outfile, indent=2)
-    return 0
+    return fname
 
 def get_all_vul(directory, lib, publisher):
     year = 2020
@@ -100,17 +103,6 @@ def get_all_vul(directory, lib, publisher):
         filename = "{}nvdcve-1.1-{}.json".format(directory, x)
         for i in extract_from_json(filename, lib, publisher):
             print(i.CVE_id)
-            #i.find_l_version2()
-            if i.fix_version != None:
-                print("Fixed version")
-                print(i.fix_version)
-            elif i.l_version != None:
-                print("Latest vulnerable version")
-                print(i.l_version)
-            else:
-                print("Vulnerable versions")
-                for x in i.vul_versions:
-                    print(x)
             CVEs.append(i)
     return CVEs
 
