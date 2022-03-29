@@ -1,0 +1,131 @@
+
+;; Function main (main, funcdef_no=601, decl_uid=23320, cgraph_uid=602, symbol_order=601)
+
+Partition 0: size 8 align 8
+	bio_7
+
+;; Generating RTL for gimple basic block 2
+
+;; Generating RTL for gimple basic block 3
+
+;; Generating RTL for gimple basic block 4
+
+;; Generating RTL for gimple basic block 5
+
+
+try_optimize_cfg iteration 1
+
+Merging block 3 into block 2...
+Merged blocks 2 and 3.
+Merged 2 and 3 without moving.
+Merging block 4 into block 2...
+Merged blocks 2 and 4.
+Merged 2 and 4 without moving.
+Merging block 5 into block 2...
+Merged blocks 2 and 5.
+Merged 2 and 5 without moving.
+Merging block 6 into block 2...
+Merged blocks 2 and 6.
+Merged 2 and 6 without moving.
+Removing jump 29.
+Merging block 7 into block 2...
+Merged blocks 2 and 7.
+Merged 2 and 7 without moving.
+
+
+try_optimize_cfg iteration 2
+
+
+
+;;
+;; Full RTL generated for this function:
+;;
+(note 1 0 3 NOTE_INSN_DELETED)
+(note 3 1 2 2 [bb 2] NOTE_INSN_BASIC_BLOCK)
+(note 2 3 5 2 NOTE_INSN_FUNCTION_BEG)
+(insn 5 2 6 2 (set (reg:DI 4 si)
+        (const_int 0 [0])) "prog2.c":8:2 -1
+     (nil))
+(insn 6 5 7 2 (set (reg:DI 5 di)
+        (const_int 2097154 [0x200002])) "prog2.c":8:2 -1
+     (nil))
+(call_insn 7 6 8 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("OPENSSL_init_ssl") [flags 0x41]  <function_decl 0x7fd9bd69e500 OPENSSL_init_ssl>) [0 OPENSSL_init_ssl S1 A8])
+            (const_int 0 [0]))) "prog2.c":8:2 -1
+     (nil)
+    (expr_list:DI (use (reg:DI 5 di))
+        (expr_list:DI (use (reg:DI 4 si))
+            (nil))))
+(call_insn 8 7 9 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("ERR_load_BIO_strings") [flags 0x41]  <function_decl 0x7fd9be0f8200 ERR_load_BIO_strings>) [0 ERR_load_BIO_strings S1 A8])
+            (const_int 0 [0]))) "prog2.c":9:2 -1
+     (nil)
+    (nil))
+(insn 9 8 10 2 (set (reg:DI 4 si)
+        (const_int 0 [0])) "prog2.c":10:2 -1
+     (nil))
+(insn 10 9 11 2 (set (reg:DI 5 di)
+        (const_int 12 [0xc])) "prog2.c":10:2 -1
+     (nil))
+(call_insn 11 10 12 2 (set (reg:SI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("OPENSSL_init_crypto") [flags 0x41]  <function_decl 0x7fd9be157900 OPENSSL_init_crypto>) [0 OPENSSL_init_crypto S1 A8])
+            (const_int 0 [0]))) "prog2.c":10:2 -1
+     (nil)
+    (expr_list:DI (use (reg:DI 5 di))
+        (expr_list:DI (use (reg:DI 4 si))
+            (nil))))
+(insn 12 11 13 2 (set (reg:DI 5 di)
+        (symbol_ref/f:DI ("*.LC0") [flags 0x2]  <var_decl 0x7fd9bd6b9ea0 *.LC0>)) "prog2.c":12:8 -1
+     (nil))
+(call_insn 13 12 14 2 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("BIO_new_connect") [flags 0x41]  <function_decl 0x7fd9be1ea100 BIO_new_connect>) [0 BIO_new_connect S1 A8])
+            (const_int 0 [0]))) "prog2.c":12:8 -1
+     (nil)
+    (expr_list:DI (use (reg:DI 5 di))
+        (nil)))
+(insn 14 13 15 2 (set (reg:DI 85)
+        (reg:DI 0 ax)) "prog2.c":12:8 -1
+     (nil))
+(insn 15 14 17 2 (set (mem/f/c:DI (plus:DI (reg/f:DI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 bio+0 S8 A64])
+        (reg:DI 85)) "prog2.c":12:8 -1
+     (nil))
+(insn 17 15 18 2 (set (reg:DI 86)
+        (mem/f/c:DI (plus:DI (reg/f:DI 77 virtual-stack-vars)
+                (const_int -8 [0xfffffffffffffff8])) [1 bio+0 S8 A64])) "prog2.c":19:5 -1
+     (nil))
+(insn 18 17 19 2 (set (reg:DI 2 cx)
+        (const_int 0 [0])) "prog2.c":19:5 -1
+     (nil))
+(insn 19 18 20 2 (set (reg:DI 1 dx)
+        (const_int 0 [0])) "prog2.c":19:5 -1
+     (nil))
+(insn 20 19 21 2 (set (reg:SI 4 si)
+        (const_int 101 [0x65])) "prog2.c":19:5 -1
+     (nil))
+(insn 21 20 22 2 (set (reg:DI 5 di)
+        (reg:DI 86)) "prog2.c":19:5 -1
+     (nil))
+(call_insn 22 21 23 2 (set (reg:DI 0 ax)
+        (call (mem:QI (symbol_ref:DI ("BIO_ctrl") [flags 0x41]  <function_decl 0x7fd9be1cd800 BIO_ctrl>) [0 BIO_ctrl S1 A8])
+            (const_int 0 [0]))) "prog2.c":19:5 -1
+     (nil)
+    (expr_list:DI (use (reg:DI 5 di))
+        (expr_list:SI (use (reg:SI 4 si))
+            (expr_list:DI (use (reg:DI 1 dx))
+                (expr_list:DI (use (reg:DI 2 cx))
+                    (nil))))))
+(insn 23 22 25 2 (set (reg:DI 82 [ _1 ])
+        (reg:DI 0 ax)) "prog2.c":19:5 -1
+     (nil))
+(insn 25 23 28 2 (set (reg:SI 83 [ _9 ])
+        (const_int 0 [0])) "prog2.c":23:9 -1
+     (nil))
+(insn 28 25 32 2 (set (reg:SI 84 [ <retval> ])
+        (reg:SI 83 [ _9 ])) -1
+     (nil))
+(insn 32 28 33 2 (set (reg/i:SI 0 ax)
+        (reg:SI 84 [ <retval> ])) "prog2.c":24:1 -1
+     (nil))
+(insn 33 32 0 2 (use (reg/i:SI 0 ax)) "prog2.c":24:1 -1
+     (nil))
