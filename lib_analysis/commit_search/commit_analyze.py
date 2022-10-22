@@ -1,5 +1,7 @@
 import os
 
+
+#Checks total amount of commits with CVE's in its logs
 def main():
     directory = r'/home/nick/home/SCA/lib_analysis/commit_search'
     CVE_fixed_total = 0

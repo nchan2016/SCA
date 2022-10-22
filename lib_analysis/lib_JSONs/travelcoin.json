@@ -1,0 +1,16 @@
+{
+  "travelcoin": [
+    {
+      "CVE": "CVE-2018-13213",
+      "Fixed Version": null,
+      "Latest Version": "-",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+    },
+    {
+      "CVE": "CVE-2018-13581",
+      "Fixed Version": null,
+      "Latest Version": null,
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+    }
+  ]
+}

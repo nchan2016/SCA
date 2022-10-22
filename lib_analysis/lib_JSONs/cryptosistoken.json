@@ -1,0 +1,10 @@
+{
+  "cryptosistoken": [
+    {
+      "CVE": "CVE-2018-13754",
+      "Fixed Version": null,
+      "Latest Version": "-",
+      "Access Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
+    }
+  ]
+}

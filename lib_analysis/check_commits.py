@@ -11,6 +11,7 @@ import time
 def main():
     ACCESS_TOKEN = get_Token()
     global Git
+    print(ACCESS_TOKEN)
     Git = Github(login_or_token=ACCESS_TOKEN)
     #ex: openssl/openssl
     try:
@@ -24,11 +25,15 @@ def main():
     # Json file from vul_get
     except IndexError:
         fname = input("Please enter Json file name: ")
+    try:
+        output_file_name = argv[3]
+    except IndexError:
+        output_file_name = input("Please enter output file name: ")
     with open(fname, 'r') as json_file:
         data = json.load(json_file)
         CVEs = []
         commits = []
-        find_function(repo, '55d83bf7c10c7b205fffa23fa7c3977491e56c07')
+        #find_function(repo, '55d83bf7c10c7b205fffa23fa7c3977491e56c07')
         for cve in data[libname]:
             if cve['Fixed Version'] != None:
                 #print(cve['CVE'])
@@ -41,7 +46,7 @@ def main():
                     #url = get_url(repo, commit.name)
                     #check_log(url, cve['CVE'])
                     #time.sleep(10)
-        commits = search_commits_v2(repo, CVEs)
+        commits = search_commits_v2(repo, CVEs, output_file_name)
     return 0
 
 def get_Token():
@@ -51,62 +56,33 @@ def get_Token():
             s = line.strip('\n').split(' ')
             token = s[-1]
             f.close()
-            print(token)
             return token
     print("Token not found")
     return -1
 
-# Old code ignore below
-
-
-# def search_commits(r, version):
-#    version = version.replace('.', '')
-#    v_array = list(version)
-#    v_index = 0
-#    is_true = False
-#    potential_commits = []
-#    tag_length = 1000
-#    tags = r.get_tags()
-#    for t in tags:
-#        is_true = False
-#        for char in t.name:
-#            if v_array[v_index] == char:
-#                if v_index == len(v_array) - 1:
-#                    is_true = True
-#                    break
-#                else:
-#                    v_index = v_index + 1
-#
-#         if is_true:
-#            potential_commits.append(t)
-#            v_index = 0
-#        else:
-#            v_index = 0
-#    if len(potential_commits) == 0:
-#        return 1
-#    for w in potential_commits:
-#        if len(w.name) < tag_length:
-#            exact_commit = w
-#            tag_length = len(w.name)
-#    return exact_commit
-
-# This version searches the git log
-def search_commits_v2(r, CVEs):
-    #test_CVE = "CVE-2016-6303"
+# This version searches the git log and finds the functions changed in the patch for a CVE
+def search_commits_v2(r, CVEs, f_name):
     result = {}
+    #Get all commits from the repo
     t = r.get_commits()
+    f_path = "/home/nick/home/SCA/lib_analysis/vul_functions/" + f_name
+    output_file = open(f_path, "w")
     for i in t:
-        #print(i.commit.sha)
+        #Search the commit message for mention of a CVE ID
         m = i.commit.message
         if "CVE" in m:
             for c in CVEs:
+                #See if any CVE ID matches any of the associated CVE's to the library
                 if c in m:
+                    #Record the commit's SHA1 Hash
                     result.update({c : i.commit.sha})
                     print([c, i.commit.sha])
+                    #Feed the hashes to the patch analyzer
                     affected_functions = find_function(r, i.commit.sha)
                     for af in affected_functions:
-                        print(af)
-        #print(m)
+                        if af != None:
+                            output_file.write(af)
+                            output_file.write("\n")
     return result
 
 def get_url(repo, tag):
@@ -121,21 +97,20 @@ def find_function(repo, sha):
     methods = []
     patch = repo.get_commit(sha)
     for f in patch.files:
+        print(f)
         methods.append(parse_function_name(f))
     return methods
-    #for m in methods:
-        #print(m)
 
 def parse_function_name(f):
     function_name = []
     if f.patch != None:
+        print(f.patch)
         for i in f.patch:
-                if i == '(':
-                    break
-                function_name.append(i)
+            if i == '(':
+                break
+            function_name.append(i)
         f_string = ''.join(function_name)
         f_string = f_string.split(' ')
-        #print(f_string[-1])
         return f_string[-1]
     else:
         return None

@@ -14,6 +14,7 @@ def main():
     try:
         repo_file = path1 + argv[1]
     except IndexError:
+        # Example input: "openssl/log.txt"
         input1 = input("Please enter repo file: ")
         repo_file = path1 + input1
         #print(repo_file)
@@ -21,6 +22,7 @@ def main():
     try:
         fname = path2 + argv[2]
     except IndexError:
+        # Example input: "openssl.json"
         input2 = input("Please enter Json file name: ")
         fname = path2 + input2
     libname = input1.replace("/log.txt","")
@@ -31,15 +33,13 @@ def main():
             if cve['Fixed Version'] != None:
                 #Searches commits for CVE IDs
                 commit = search_commits(repo_file, str(cve['CVE']))
-                if commit == 1:
+                if commit != None:
                     Found_CVEs += 1
                     print(cve['CVE'])
-                #else:
-                    #print("CVE not found")
-    #fname.close()
+                    print(commit)
+                    print('\n')
     print(Found_CVEs)
     print("\n")
-    #compare()
     return 0
 
 def compare():
@@ -57,13 +57,25 @@ def compare():
         print(x)
 
 def search_commits(repo_file, CVE):
+    # Read the git log and search for CVEs and record the commit ID
+    cur_commit = ''
+    prev_line = ''
     f1 = open(repo_file, encoding = "ISO-8859-1")
     for line in f1:
+        if "Author:" in line:
+            try:
+                #print(prev_line)
+                cur_commit = prev_line.split(' ')[1]
+                #print(cur_commit)
+            except IndexError:
+                cur_commit = prev_line
         if CVE in line:
+            #print(cur_commit)
             f1.close()
-            return 1
+            return cur_commit
+        prev_line = line
     f1.close()
-    return 0
+    return None
 
 if __name__ == '__main__':
     main()
